@@ -30,7 +30,7 @@ Users should be able to:
 
 ### **Links**
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Column Preview Card Component](https://dinesvlarsen.github.io/03-column-preview-card-component/)
 
 ## **My process**
 
