@@ -1,0 +1,130 @@
+/* font-family: 'Big Shoulders Display', cursive; 
+    Bright orange: hsl(31, 77%, 52%)
+    Dark cyan: hsl(184, 100%, 22%)
+    Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+    Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+    Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  padding: 5rem 2rem 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+main {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  margin: auto auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section {
+  padding: 2.5em;
+  max-width: 314px;
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+}
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 50px;
+  padding: 0.6em;
+  padding: 1em 2em 0.95em 2em;
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  padding-bottom: 1.7rem;
+  font-size: 2.5rem;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  max-width: 217px;
+  line-height: 1.5rem;
+  letter-spacing: -0.3px;
+  padding-bottom: 1rem;
+}
+img {
+  padding-bottom: 1.7rem;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+#sedan h2 {
+  color: #feefdf;
+}
+#sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+#suv {
+  background-color: hsl(184, 100%, 22%);
+}
+#suv h2 {
+  color: #e3f8fb;
+}
+#suv button {
+  color: hsl(184, 100%, 22%);
+}
+#sedan button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+#suv button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+#luxury button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+#luxury h2 {
+  color: #e8f7fc;
+}
+#luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 857px) {
+  body {
+    padding: 0;
+  }
+  main {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  p {
+    margin-bottom: 3.7rem;
+  }
+  button {
+    margin-bottom: 0.15rem;
+  }
+
+  #luxury {
+    border-radius: 0;
+  }
+}
