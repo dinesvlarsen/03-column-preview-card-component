@@ -64,48 +64,30 @@ p {
 img {
   padding-bottom: 1.7rem;
 }
-
 #sedan {
   background-color: hsl(31, 77%, 52%);
 }
-#sedan h2 {
-  color: #feefdf;
-}
-#sedan button {
+.sedan-button {
   color: hsl(31, 77%, 52%);
 }
 
 #suv {
   background-color: hsl(184, 100%, 22%);
-}
-#suv h2 {
-  color: #e3f8fb;
-}
-#suv button {
   color: hsl(184, 100%, 22%);
 }
-#sedan button:hover {
-  background-color: transparent;
-  color: hsl(0, 0%, 95%);
+.suv-button {
+  color: hsl(184, 100%, 22%);
 }
-#suv button:hover {
-  background-color: transparent;
-  color: hsl(0, 0%, 95%);
-}
-#luxury button:hover {
-  background-color: transparent;
-  color: hsl(0, 0%, 95%);
-}
-
 #luxury {
   background-color: hsl(179, 100%, 13%);
-  border-radius: 0 0 10px 10px;
 }
-#luxury h2 {
-  color: #e8f7fc;
-}
-#luxury button {
+.luxury-button {
   color: hsl(179, 100%, 13%);
+}
+
+section button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
 }
 
 @media only screen and (min-width: 857px) {
